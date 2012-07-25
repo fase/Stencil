@@ -46,4 +46,16 @@ $(function() {
     }
   );
 
+  $('#button_monkey').click(function() {
+    $('#stencil').attr('href', 'stencil.css');
+  });
+
+  $('#button_64').click(function() {
+    $('#stencil').attr('href', 'stencil_64.css');
+  });
+
+  $('#button_emo').click(function() {
+    $('#stencil').attr('href', 'stencil_emo.css');
+  });
+
 });
