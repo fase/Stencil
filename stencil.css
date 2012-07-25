@@ -28,3 +28,58 @@ input[type='button']
   padding-bottom: 8px;
   background-size: 100%;
 }
+
+div.amoeba
+{
+  height: 84px;
+  width: 202px;
+}
+
+div.amoeba div.top
+{
+  width: 200px;
+  height: 33px;
+  background: url('images/amoeba_top.png') 0px 0px;
+}
+
+div.amoeba div.left
+{
+  width: 37px;
+  height: 22px;
+  background: url('images/amoeba_left.png') 0px 0px;
+  float: left;
+}
+
+div.amoeba div.textbox
+{
+  width: 155px;
+  height: 22px;
+  float: left;
+}
+
+div.amoeba div.textbox input 
+{
+  margin: 0px 0px;
+  width: 155px;
+  border: 0px;
+  font-family: verdana;
+  padding-top: 2px;
+}
+
+div.amoeba div.right
+{
+  width: 8px;
+  height: 22px;
+  background: url('images/amoeba_right.png') 0px 0px;
+  float: right;
+}
+
+div.amoeba div.bottom
+{
+  clear: both;
+  width: 200px;
+  height: 29px;
+  background: url('images/amoeba_bottom.png') 0px 0px;
+}
+
+div.amoeba input:focus { outline-width: 0; }
